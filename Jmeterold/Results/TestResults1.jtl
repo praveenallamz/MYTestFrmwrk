@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1511940402067,5168,UPC_Login,200,OK,Thread Group 1-5,text,true,,10794,4246,5,5,2934,0,2473
+1511940407313,2563,UPC_HomePage,200,OK,Thread Group 1-5,text,true,,10095,2716,5,5,589,0,292
+1511940415339,3904,UPC_Login,200,OK,Thread Group 1-1,text,true,,10787,4246,4,4,1608,0,1212
+1511940419400,2325,UPC_HomePage,200,OK,Thread Group 1-1,text,true,,10082,2716,4,4,601,0,299
+1511940418787,3866,UPC_Login,200,OK,Thread Group 1-3,text,true,,10787,4246,3,3,1579,0,1186
+1511940420141,3915,UPC_Login,200,OK,Thread Group 1-2,text,true,,10774,4246,3,3,1679,0,1265
+1511940423174,2309,UPC_HomePage,200,OK,Thread Group 1-3,text,true,,10089,2716,3,3,614,0,306
+1511940424654,2307,UPC_HomePage,200,OK,Thread Group 1-2,text,true,,10089,2716,2,2,646,0,317
+1511940427655,4855,UPC_Login,200,OK,Thread Group 1-4,text,true,,10794,4246,1,1,1617,0,1215
+1511940433069,2280,UPC_HomePage,200,OK,Thread Group 1-4,text,true,,10082,2716,1,1,312,0,0

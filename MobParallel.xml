@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods">
+
+<test name="Paralleltest1">
+	<parameter name="platformName" value="Android"/>
+	<parameter name="platformVersion" value="7.1.1"/>
+	<parameter name="deviceName" value="emulator-5554"/>
+	<parameter name="URL" value="127.0.0.1"/>
+	<parameter name="port" value="4747"/>  
+	   <classes>
+		 <class name="step_definitions.MobileParallel"/>
+		</classes>
+</test>
+
+<test name="Paralleltest2">
+	<parameter name="platformName" value="Android"/>
+	<parameter name="platformVersion" value="7.1.1"/>
+	<parameter name="deviceName" value="emulator-5556"/>
+	<parameter name="URL" value="127.0.0.1"/>
+	<parameter name="port" value="4737"/>  
+	   <classes>
+		 <class name="step_definitions.MobileParallel"/>
+		</classes>
+</test>
+
+
+</suite>
